@@ -1,0 +1,191 @@
+What is Linux ?
+--> Linux is a open source operating system that serve foundation of many server ,cloud and containerize env it provide infrastructure for application ,service and system
+
+   Linux is stability reliability and performance making for better choice for server ,databases and high performance application is widely use for hosting web application          and cloud computing.
+   Linux are security feature such as user permission ,access control and the ability to implement the various security framework 
+
+   Linux provide powerful tool for scripting ,enabling the automation of server setup ,configuration management , monitoring and more
+
+Archicture of linux ?
+--> Linux archi consist of 4 layer
+1 hardware layer -Includes physical components like CPU, RAM, hard drives, and network interfaces.
+
+2 kernel layer -The core of the Linux OS, managing hardware interactions, process scheduling, memory management, device drivers, and system calls.
+
+3 shell layer - shell is provide the envirment(interface) to write a command
+
+4 application layer - Programs running on top of the OS
+
+Feature of linux ?
+Why we use linux ?
+flavor of linux ?
+--> centOS ,Ubuntu ,Debian ,fedora ,arch Linux
+
+types of shell in linux ?
+-->1 bash 
+2 Zsh(Z Shell)
+3 Fish/ 
+4 C Shell
+5 Korn Shell (ksh)
+6 Bourne shell (sh)
+7 Tenex C Shell (tcsh)
+
+25 commands of linux ?
+---> ls            uname- display the system information
+     ll            free- 
+     pwd           
+     cd 
+     mkdir
+     rmdir
+     touch
+     echo
+     tail
+     head
+     cat
+     rm
+     chmod
+     chown
+     ps
+       
+file system system hierchy ? 
+--> / -
+     /etc /home /root /var /usr /lib /bin /sbin /temp /media /opt /mnt /srv /sys /proc /boot /dev /run /lib64
+
+editor types of editor
+ there are 4 type of editor
+ 1 nano
+ 2 pico
+ 3 vi 
+ 4 vim
+    
+ 
+mode of editor command insert execute visual. ?
+ --> mode command , insert ,execute ,visual 
+
+useradd and adduser difference ?
+ useradd not create home directory , default shell is - /bin/sh , low level command 
+ 
+ adduser create home directory , default shell is - /bin/bash , hight level script 	
+
+
+differnce of cat less tail head more
+
+what is single and double redirector.
+
+types of user in linux super user id 0 system 1-999 standard 1000-60k.
+
+fields of etc/passwd 7 fields
+
+fields of group 4 field
+etc/passwd -> user related
+etc/shadow -> user related password
+etc/group -> group related
+etc/gshadow -> password of group and member information
+etc/shell shell information
+etc/var/log log information
+types of shell ?
+etc/skel skeleton ->  hidden files bashrc bashlogout bash-profile
+types of files in linux 2 types system user defined eg 1 normal 2 directory 3 link system defind block file chacter file socket file pipe
+
+types of link soft and hard
+difference between soft and hard link?
+chown  change owner
+chgrp change group owner
+chmod  change permission like (read 4 ,write 2,execute 1) 
+octal value of read 4 write 2 exectute 1
+full permission of file 666
+full permission of Directory 777
+rwx-  user-group-owner
+default permission for local user for file 664 
+default permission for local user for directory 775
+
+default permission for root user for file 644
+default permission for root user for directory 755
+
+umask for root = 022
+umask for local 002
+
+/etc/profile search in google
+
+; is used to run 2 command together
+--wc word count in file how many word present
+
+alias permanent change   etc/skel ls vim bashrac
+
+primary group and secondary group in Linux
+
+--> In Linux, a user has a primary group (the default group associated with them and their files) and can belong to multiple secondary groups (additional groups for sharing files or accessing resources)
+
+what is tar command and why we use ?
+-->'tar' is a command used fore extracting files from archives.
+
+what is file archeiving?
+
+The du , df command helps to find space-consuming files and directories, their sizes, and which folders occupy the most disk space
+
+
+tar -cvf and -xvf difference search google
+
+what is compression ?
+
+what is gzip , bzip2 , xz ?
+
+gunzip, bunzip2, unxz search in google 
+
+what is job scheduling?
+
+
+types of job scheduling 
+
+1) at
+2) crontab
+3) anacron
+
+vim/etc/crontab -> 5 element of crontab ?
+
+what is search and filter
+--> search utility are used to search file from system and filter is used to filter the output from the file
+
+what is grep command ?
+
+locate and find command in linux search in google ? 
+
+what is process management ?
+--> Procces is nothing but a running  executable programs 
+
+types of process 1) shell 2) demon/syatem
+
+sleep bg and fg back and front ground ?
+
+difference between top and ps command ?
+ ps- ps is show the snapshot of the current running processes
+ top -real-time view of system processes , detailed monitering of system 
+
+kill command search in google.
+
+priority and nice value search in google
+
+(imp) tree command in linux.
+
+what is networking in Linux
+ the tools, protocols, and technologies that enable computers and devices to communicate and share data over a network,
+
+osi model
+
+types of network
+
+types of osi model layer in linux
+
+
+ipv4 and ipv6 difference
+
+types of internet protocol ?
+
+ip address classes
+
+classes range
+
+difference between tcp and udp ?
+
+what is update and upgrade ? 
+
