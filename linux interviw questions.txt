@@ -1,7 +1,7 @@
 What is Linux ?
 --> Linux is a open source operating system that serve foundation of many server ,cloud and containerize env it provide infrastructure for application ,service and system
 
-   Linux is stability reliability and performance making for better choice for server ,databases and high performance application is widely use for hosting web application          and cloud computing.
+   Linux is stability reliability and performance making for better choice for server ,databases and high performance application is widely use for hosting web application and cloud computing.
    Linux are security feature such as user permission ,access control and the ability to implement the various security framework 
 
    Linux provide powerful tool for scripting ,enabling the automation of server setup ,configuration management , monitoring and more
