@@ -1,0 +1,393 @@
+1) what is kubernetes work flow ?
+
+Ans ->  The Kubernetes workflow is the series of steps and processes involved in deploying, managing, and scaling applications in a Kubernetes environment.
+The workflow involves both the developer’s tasks (e.g., creating containers and writing Kubernetes configurations) and the operator’s tasks (e.g., managing the deployment and scaling of applications).
+
+2) what is docker volume plugin ?
+
+Ans -> A Docker Volume Plugin is an extension or a third-party integration that allows Docker to manage external storage, making it possible for Docker containers to interact with different types of storage.
+
+3) what is Docker network and its type ?
+
+Ans -> Docker Networking allows Docker containers to communicate with each other and with the outside world.
+
+And THERE ARE 6 type OF NETWORK 
+
+   1) BRIDGE 
+   2) HOST 
+   3) OVERLAY 
+   4) MACVLAN 
+   5) NONE 
+   6) IPVLAN
+
+4) which driver is used to created a docker container and apply to network ?
+
+Ans -> when you create a container and apply it to a network, you use the BRIDGE NETWORK.
+
+5) Purpose of docker compose ?
+
+Ans -> Docker compose is used for creating or spin up multiple container application in a single yaml configuration file.
+
+6)  How to create a docker image ?
+
+Ans -> we write set of instruction to build a docker image using dockerfile.
+
+7) What is docker image ?
+
+Ans -> A Docker image is a read-only template containing instructions for creating a Docker container .
+
+8) what is docker container ?
+
+Ans -> A Docker container is a lightweight, standalone, and executable package of software that includes everything needed to run an application, including code, runtime, system tools, libraries, and configuration files.
+
+9) what is cloud methodology ?
+
+Ans -> Cloud Methodology refers to the strategies, practices, and frameworks used to design, develop, deploy, and manage applications, services, or infrastructure on cloud platforms.
+
+10) What is IAM ?
+
+Ans -> IAM (Identity and Access Management) is a framework of policies, processes, and technologies that help organizations manage and control who can access specific resources in a system or network. IAM is critical for ensuring that only authorized users or entities have the appropriate permissions to access sensitive systems, applications, and data.
+
+11) what is virtualization / virtualizer ?
+
+Ans ->  Virtualization
+
+  -----  Virtualization is a technology that allows you to create multiple virtual machine resources such server storage and os on a single physical machine.
+
+ Serval types of virtualization
+
+  1) APPLICATION
+  2) DESKTOP
+  3) STORAGE
+  4) SERVER
+  5) NETWORK
+
+ VIRTULIZAR
+
+ ------ A Virtualizer also known as hypervisor is software that creates and runs virtual machines on a single physical machine.
+
+  Types of virtualizer
+
+  1) Bare-Metal Hypervisor
+  2) Hosted Hypervisor
+
+
+12) how to check virtualizer in os ?
+
+Ans -> lscpu
+
+13 ) Difference between adduser and useradd ?
+
+Ans ->  ADDUSER                                                                         USERADD
+
+
+ -- High-level script, more user-friendly.                                          -- Low-level command, more flexible.
+ -- Automatically creates the home directory.                                       -- Does not create home directory.
+ -- when we create a user it Ask for password.                                      -- we have to create pasword seperate. / do not ask pasword while creating a user.
+
+14) What is service types in aws ?
+
+Ans ->  1) SAAS -> SOFTWARE AS A SERRVICE
+        2) PASS -> PLATFORM AS A SERVICE
+        3) IASS -> INFRASTRUCTURE AS A SERVICE
+
+15) how many layer in laas ?
+
+Ans ->  there are 3 types of layer in IAAS
+
+     1) Compute Layer
+     2) Storage Layer
+     3) Networking Layer
+
+  Layers in SaaS and PaaS in both same layer AWS
+
+ 1) Application Layer
+ 2) Platform Layer
+ 3) Infrastructure Layer
+
+16) S3 lifecycle ?
+
+Ans -> Amazon S3 (Simple Storage Service) Lifecycle allows you to automate the objects between different storage classes, archive data, or delete objects after a specified time period. 
+
+  Types of Storage Classes in S3
+
+  1) S3 Standard
+  2) S3 Standard-IA  (IA means Infrequent Access)
+  3) S3 One Zone-IA
+  4) S3 Glacier instant Retrival
+  5) S3 Glacier Deep Archive
+  6) S3 Intelligent-Tiering
+  7) S3 Glacier flexibile retrival
+
+17) Terraform lifecycle ?
+
+Ans -> Terraform lifecycle is used to define specific behaviors for managing resources. It allows you to customize how Terraform handles certain aspects of resource management, such as creation, update, and deletion.
+
+Terraform lifecycle management define how resource create, update, and destroyed in an infra structure as a code set up.
+
+terraform life cycle flow 
+ 
+  1) terraform init  ( is the first comand when we run a project. it initilize working directory )
+  2) terraform plan
+  3) terraform apply
+  4) terraform destroy
+
+18) Git lifecycle ?
+
+Ans -> 1) git clone and create a repo 
+2) make changes in repo 
+3) commit the changes to git local repo 
+4) pull the changes from remote repo and 
+5) then push the changes to the remote repo
+
+
+In Step – 1, We first clone any of the code residing in the remote repository to make our own local repository.
+In Step-2 we edit the files that we have cloned in our local repository and make the necessary changes in it.
+In Step-3 we commit our changes by first adding them to our staging area and committing them with a commit message.
+In Step – 4 and Step-5 we first check whether there are any of the changes done in the remote repository by some other users and we first pull that changes.
+If there are no changes we directly proceed with Step – 6 in which we push our changes to the remote repository and we are done with our work.
+
+
+  git status: Shows the current state of the working directory and staging area.
+
+  git add <file>: Stages a file, marking it for inclusion in the next commit.
+
+  git commit -m "message": Commits the staged changes to the local repository.
+
+  git push origin <branch>: Pushes your commits to a remote repository.
+
+  git pull origin <branch>: Pulls changes from the remote repository to your local machine.
+
+
+19) what is git ?
+
+Ans -> Git is a distributed version control system that allows (developers) to track changes in their source code.
+
+20) what is github ?
+
+Ans -> GitHub is a web-based platform for version control It is one of the most popular platforms for software development and version control, allowing developers to store, manage the code.
+
+ - github is a website that lets user store ,manage and share code.
+
+20) what is use of git addd command ?
+
+Ans -> git add command adds a change in the working directory to the staging area.
+
+21) what is use of git addd commit ?
+
+Ans -> The git commit command is used to save changes to the local Git repository.After the git add command to stage your changes.
+
+22) difference between git clone and git init ?
+
+Ans -> git clone will clone the new git repo in the local machine.
+
+ git init is used to initialize a new Git repository in your local directory.
+
+23) What is Jenkins ?
+
+Ans -> Jenkins is an open-source automation server that is widely used for continuous integration (CI) and continuous deployment (CD). It helps automate the tasks involved in building, testing, and deploying software.
+
+1) continuous delivery, where it can automatically deploy applications to production environments after successful builds and tests.
+
+2) CI/CD a set of practice that automate software devlopment lifecycle.enable faster and more reliable software release.
+
+
+24) what is shared directory in jenkins?
+
+Ans -> In Jenkins, a shared directory refers to a directory that is accessible to multiple Jenkins jobs or builds, allowing them to share files or resources during the build process.
+
+25) what is benifit of sudo command ?
+
+Ans -> The sudo command is a powerful tool in operating systems that allows a permitted user to execute a command as the superuser (root) do. It is widely used for performing administrative tasks, such as installing or removing software etc .
+
+26) Explain linux archiecture ?
+
+Ans -> it consist of 4 layes
+
+ hardware , kernal , shell , application
+
+
+1 hardware -- hardware include all physical component such as cpu, memory, ram.
+
+2)kernal -- The kernel is the brain of the operating system.kernal is the mediator between hardware and shell. 
+
+(It handles tasks such as process management, memory management, hardware drivers, file systems, and networking.)
+
+3) Shell -- shell provide an environment or interface in which we write the command.
+
+The shell is a command-line interface that provides users with the ability to interact with the system using text-based commands.
+
+4) Application -> application is a running program on top of operation system.
+
+
+27) Explain docker Archiecture ?
+
+Ans -> Docker Client: The Docker client is the interface used by the user to interact with Docker.The Docker client sends requests to the Docker Daemon and receives output from it.
+
+Docker Daemon (Docker Engine): The Docker Daemon, also called the Docker Engine, is the core component that runs in the background. It is responsible for managing Docker containers, images, networks, and volumes.
+
+Docker Images: Docker images are read-only templates used to create Docker containers.
+
+Docker container : A container is a runtime instance of a Docker image Containers are lightweight, portable, and isolated environments where applications run.
+
+Docker Registries: Docker registries are repositories where Docker images are stored. The most common registry is Docker Hub.
+
+28) Difference between NACL and Security Group ?
+
+Ans ->  Security Groups (SG):
+
+   - Operates at the instance level.
+   - It is primarily used to control inbound and outbound traffic to/from EC2 instances.
+   - first layer of protection.
+
+Network Access Control Lists (NACLs)
+
+   - Operates at the subnet level.
+   - NACLs control traffic entering or leaving a subnet within a VPC
+   - second layer or additional layer of protection.
+
+29) what is redirectories and its type ?
+
+Ans ->  redirectories are used to write terminal output into file.
+
+output generated from any command on terminal can transfer from one file to another.
+
+   types of redirectories
+
+ 1) single
+ 2) double
+
+single -> it overwrite the content of existing file.
+
+double -> it append the redirected data in existing file.
+
+30) file system system hierchy ?
+
+Ans -> home root lib var svc bin run usr media mnt opt var tmp sbin sys dev boot lib lib64
+
+31) file types in linux
+
+Ans there are 7 types of file further divided into 2 types
+
+1) user defined 2) system defined
+
+in user defined 1) normal 2) link 3) directory
+
+in system defined 1) character 2) socket 3) pipe 4) block
+
+
+32) difference between hard link and soft link ?
+
+Ans ->       hard link                                                                                       soft link
+
+  -- A hard link is a reference to the physical file.                                      -- A soft link is a reference to another file.
+  -- In hardlink same inode number                                                         -- in soft link different inode number.
+  -- Data is not deleted until last link is removed.                                       -- Link is broken if the target file is deleted.
+  -- Same content as the original file.                                                    -- Contains the path to the original file.
+
+33) What is umask ?
+
+Ans ->  to set the default permissions for newly created files and directories.
+
+34) difference between conical id and account id ?
+
+
+Account id - Uniquely identifies an AWS account. (2) 12-digit number
+
+conical id - Uniquely identifies a user for S3 bucket/object. (2) Alphanumeric string
+
+35) what is Arn ?
+
+Ans -> ARN stands for Amazon Resource Name. It is a unique identifier used to reference AWS .making it easier to specify resources when configuring permissions and policies.
+
+36 ) difference between ami and snapshot ?
+
+Ans -> AMI - An AMI (Amazon Machine Image) is a pre-configured template used to launch new EC2 instances. It contains the operating system, application server, application software, and other configurations.
+
+
+Snapshot - A Snapshot is a copy of an Amazon Elastic Block Store (EBS) volume. Snapshots allow you to backup the data stored on EBS volumes and restore or replicate it later.
+
+37) what is MFA ?
+
+Ans -> MFA stands for Multi-Factor Authentication. It is an additional layer of security used to verify the identity of users accessing an application, system, or service.
+
+38) what is load balance and its type ?
+
+Ans -> load balancer manage incoming traffic across multiple servers, resources, or instances.it improve the availability, scalability.
+
+types of load balancer 
+ 
+ 1) Application Load Balance
+ 2) Network Load Balancer 
+ 3) Classic Load Balancer
+ 4) Gateway load Balancer
+
+ OSI model Layer 
+
+ 1) APPLICATION
+ 2) PRESENTATION
+ 3) SESSION
+ 4) TRANSPORT
+ 5) NETWORK
+ 6) DATALINK
+ 7) PHYSICAL
+ 
+39) What is auto scaling and its types ?
+
+Ans -> Auto Scaling is automatically adjusts the number of ec2 instance based on incoming traffic.
+
+
+x
+
+1) ec2 autoscaling
+2) aws service autoscaling
+
+40) explain archiecture of kubernetes ?
+
+Ans -> Kubernetes architecture mainly have two component master node and working node -->in master node their are api server ,scheduler , controller manger and etcd .....and in working node their are kubelet , kube-proxy , pods and container eng
+
+
+
+
+41) what is use of pom.xml
+
+Ans -> providing all the necessary information about the project, such as its dependencies, plugins, and goals.
+
+
+42) what is volume in docker ?
+
+Ans -> In Docker, a Volume is a persistent storage mechanism that allows you to store data outside the container’s filesystem. Volumes are designed to be managed by Docker and can be shared and reused across multiple containers.
+
+43) Routing policy and its type ?
+
+Ans -> A Routing Policy is a set of rules that control how network traffic is routed across different paths within a network or between different networks.
+
+types of routing policy
+
+1) simple routing
+2) weighted policy
+3) geo location
+4)latency based
+5)failover roution
+
+What is Docker?
+Docker is an open-source containerization platform by which you can pack your application and all its dependencies into a standardized unit called a container.
+
+
+full permission of file -666
+full permission of Directory 777
+
+umask for root = 022
+umask for local 002
+
+default permission for local user for file 664 
+default permission for local user for directory 775
+
+default permission for root user for file 644
+default permission for root user for directory 755
+
+
+44) different between w get and curl
+
+
+
